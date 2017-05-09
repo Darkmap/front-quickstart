@@ -18,6 +18,14 @@ Tech-stacks:
 
 ## Installation
 
+Firstly, run the following command to install the tool:
+
+`
+npm install -g front-quickstart
+`
+
+Go to the new project and then run `front-quickstart` in the terminal, then you got the template.
+
 For the purpose of running the project correctly, you should install **babel-cli** by running:
 
 `
