@@ -24,7 +24,9 @@ Firstly, run the following command to install the tool:
 npm install -g front-quickstart
 `
 
-Go to the new project and then run `front-quickstart` in the terminal, then you got the template.
+Go to the new project directory and run `front-quickstart` in the terminal, then you got the template project.
+
+## Guide for the Template
 
 For the purpose of running the project correctly, you should install **babel-cli** by running:
 
