@@ -26,7 +26,7 @@ npm install -g front-quickstart
 
 Go to the new project directory and run `front-quickstart` in the terminal, then you got the template project.
 
-## Guide for the Template
+## Guide for Using the Template
 
 For the purpose of running the project correctly, you should install **babel-cli** by running:
 
@@ -38,4 +38,11 @@ and also install the dependencies by running:
 
 `
 npm install
+`
+
+you can test the server in the dev mode and then hit the http://localhost:8080/:
+
+
+`
+npm run devbuild
 `
