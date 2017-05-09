@@ -1,0 +1,52 @@
+{
+  "name": "koa-redux-react-template",
+  "version": "1.0.0",
+  "description": "This is a boost starter for building project with react, redux, webpack, babel, eslint.",
+  "main": "app/main.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rm -rf ./public/*",
+    "devbuild": "webpack-dev-server --inline --progress --hot",
+    "start": "babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkmap/frontend-starter.git"
+  },
+  "author": "QixuanW",
+  "license": "Apach-2.0",
+  "bugs": {
+    "url": "https://github.com/Darkmap/frontend-starter/issues"
+  },
+  "homepage": "https://github.com/Darkmap/frontend-starter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "react-transform-hmr": "^1.0.4",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-react-view": "^3.0.0",
+    "koa-route": "^3.2.0",
+    "koa-static-cache": "^5.0.1",
+    "koa-views": "^6.0.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "swig": "^1.4.2"
+  }
+}

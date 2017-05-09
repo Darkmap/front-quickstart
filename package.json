@@ -1,0 +1,13 @@
+{
+  "name": "front-quickstart",
+  "version": "1.1.1",
+  "description": "This is a helper which helps you init a front-end project with Koa, Redux, React, Webpack, Babel, and Eslint.",
+  "bin": {
+    "front-quickstart": "bin/quickstart.js"
+  },
+  "author": "QixuanW",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
+}
