@@ -1,6 +1,6 @@
 {
   "name": "front-quickstart",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "This is a helper which helps you init a front-end project with Koa, Redux, React, Webpack, Babel, and Eslint.",
   "bin": {
     "front-quickstart": "bin/quickstart.js"
